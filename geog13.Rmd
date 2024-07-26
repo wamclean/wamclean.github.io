@@ -9,10 +9,14 @@ I am currently attending Colorado State University to acquire a Professional Sci
 In the summer of 2024 I joined Lynker as an Intern and contributed to a TNC project modelling the Jalama Creek Watershed within the Jack and Laura Dangermond Preserve at Point Conception in California. 
 
 ## [Lynker]()
-
-- In this assignment we built a static users site with Github Pages 
-- Includes a github repo for access to all the code.
-- Look at how high quality my work is!
-- I need to put my resume stuff from Lynker here once I have it
-- Keeping the standard provided text until I get further into this project I guess
-- Hi
+<!-- CABCM Water Balance -->
+<img src="img/CABCM_Balance.png" alt="GitHub Picture">
+<!-- CABCM Corr Plot -->
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+<img src="img/CABCM_CorrPlot_07152024.png" alt="GitHub Picture">
+<!-- Terra Water Balance -->
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+<img src="img/terra_Balance.png" alt="GitHub Picture">
+<!-- Terra Corr Plot -->
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+<img src="img/Terra_CorrPlot_07222024.png" alt="GitHub Picture">
