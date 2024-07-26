@@ -4,19 +4,25 @@ output:
   html_document:
     css: styles.css
 ---
-I am currently attending Colorado State University to acquire a Professional Science Masters in Ecosystem Science and Sustainability, specializing in Water Resources. I have previously worked in GIS and Telecom Network Planning but my passion has always been for natural resources and the stewardship of our environment, prompting my enrollment at CSU and subsequent projects.
 
 In the summer of 2024 I joined Lynker as an Intern and contributed to a TNC project modelling the Jalama Creek Watershed within the Jack and Laura Dangermond Preserve at Point Conception in California. 
 
+There is a network of gages throughout the watershed which provide historic data from 2010 to present. Leveraging this real world data against model projections allows us to train a NextGen Model to predict future outcomes for the watershed with the end goal of developing a tool to be deployed by the State of California.
+
+Pulling data from the <a href="https://ca.water.usgs.gov/projects/reg_hydro/basin-characterization-model.html" target="_blank">California Basin Characterization Model (CABCM)</a> and <a href="https://www.climatologylab.org/terraclimate.html" target="_blank">Terra Climate (TerraCLim)</a> allowed me to develop a water balance for the watershed and to visualize the inputs and outputs to the system.
+
 ## [Lynker]()
 <!-- CABCM Water Balance -->
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
 <img src="img/CABCM_Balance.png" alt="GitHub Picture">
-<!-- CABCM Corr Plot -->
-<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
-<img src="img/CABCM_CorrPlot_07152024.png" alt="GitHub Picture">
 <!-- Terra Water Balance -->
-<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
-<img src="img/terra_Balance.png" alt="GitHub Picture">
+
+<img src="img/terra_Balance.png" alt="GitHub Picture">    
+<!-- CABCM Corr Plot -->
+
+Combining delta well water level and soil moisture data allows a vizualization of the accuracy of current models recharge data to real world conditions.
+
+<img src="img/CABCM_CorrPlot_07152024.png" alt="GitHub Picture">
 <!-- Terra Corr Plot -->
-<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+
 <img src="img/Terra_CorrPlot_07222024.png" alt="GitHub Picture">
