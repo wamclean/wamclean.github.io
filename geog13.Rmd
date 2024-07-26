@@ -9,7 +9,7 @@ In the summer of 2024 I joined Lynker as an Intern and contributed to a TNC proj
 
 There is a network of gages throughout the watershed which provide historic data from 2010 to present. Leveraging this real world data against model projections allows us to train a NextGen Model to predict future outcomes for the watershed with the end goal of developing a tool to be deployed by the State of California.
 
-Pulling data from the <a href="https://ca.water.usgs.gov/projects/reg_hydro/basin-characterization-model.html" target="_blank">California Basin Characterization Model (CABCM)</a> and <a href="https://www.climatologylab.org/terraclimate.html" target="_blank">Terra Climate (TerraCLim)</a> allowed me to develop a water balance for the watershed and to visualize the inputs and outputs to the system.
+Pulling data from the <a href="https://ca.water.usgs.gov/projects/reg_hydro/basin-characterization-model.html" target="_blank">California Basin Characterization Model (CABCM)</a> and <a href="https://www.climatologylab.org/terraclimate.html" target="_blank">Terra Climate (TerraClim)</a> allowed me to develop a water balance for the watershed and to visualize the inputs and outputs to the system.
 
 ## [Lynker]()
 <!-- CABCM Water Balance -->
