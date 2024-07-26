@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>McLeanResume.knit</title>
+
+<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">William "Billy" McLean</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="geog13.html">GIS Work</a>
+</li>
+<li>
+  <a href="McLeanResume.html">CV</a>
+</li>
+<li>
+  <a href="shinyApp.html">Shiny App</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://www.linkedin.com/in/wamclean/">
+    <span class="fa fa-linkedin"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://github.com/wamclean">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<center>
+<div id="william-billy-mclean" class="section level2">
+<h2>William “Billy” McLean</h2>
+Fort Collins, Colorado · 813-528-2602 · <a
+href="mailto:wamclean3@gmail.com"
+class="email">wamclean3@gmail.com</a><br />
+<a href="https://www.linkedin.com/in/wamclean/"
+class="uri">https://www.linkedin.com/in/wamclean/</a>
+</center>
+<center>
+<div id="sustainable-water-resources-gis-data-analysis"
+class="section level4">
+<h4>Sustainable Water Resources | GIS | Data Analysis</h4>
+</center>
+<p>With a strong foundation of scientific principles and ongoing
+education in environmental data science,<br />
+I approach issues in sustainability and ecosystem health from a data
+driven perspective. Ecosystem restoration<br />
+and stewardship are my passions and I intend to be on the front lines in
+helping create a more sustainable<br />
+world in the present and for future generations. My core competencies
+include:</p>
+<div style="margin-left: 20px;">
+<p>• Spatial analysis with GIS systems including ArcGIS and QGIS<br> •
+Data wrangling and analysis using RStudio<br> • Stakeholder
+communication and public speaking<br> • Field work, Trimble GPS, SAP,
+record management, Microsoft Suite<br> • Spanish (intermediate
+proficiency)</p>
+</div>
+<div id="data-management-and-geospatial-experience"
+class="section level5">
+<h5>Data management and Geospatial Experience</h5>
+<strong>Position:</strong> Graduate Teaching Assistant | Colorado State
+University Fort Collins, Colorado<br />
+<strong>Duration:</strong> January 2024-May 2024
+<div style="margin-left: 20px;">
+<p>• Instructed students on core geospatial concepts and methods for
+mapping and analysis.<br />
+• Conducted three weekly labs to demonstrate these practices using
+ArcGIS Suite and QGIS.<br />
+• Assisted students in troubleshooting and problem solving as to enhance
+their learning experience.<br />
+• Managed a schedule involving over 75 students and their unique support
+needs.</p>
+</div>
+<strong>Position:</strong> Geospatial Data Technician II | Xcel Energy
+Denver, Colorado<br />
+<strong>Duration:</strong> October 2021-September 2023
+<div style="margin-left: 20px;">
+<p>• Enhanced data analysis and improved conflict resolution (from
+27–51%) for service delivery<br />
+• Utilized Smallworld GIS System to maintain data and mapping of
+high-pressure gas regulator stations.<br />
+• Supported Xcel Energy’s Gas Distribution, Design, Construction,
+Engineering, and Operations groups.<br />
+• Maintained data integrity by cross referencing historical and field
+data with daily data-conflict reports<br />
+• Assisted team with gas and electric facility information within Xcel
+Energy’s Enterprise GIS.</p>
+</div>
+<strong>Position:</strong> Geospatial Technician I | Xcel Energy Denver,
+Colorado <strong>Duration:</strong> March 2019-September 2020
+<div style="margin-left: 20px;">
+<p>• Maintained gas and land base customer service facility information
+within Enterprise GIS.<br />
+• Processed gas and facility maintenance construction work orders and
+redline map corrections.<br />
+• Supported clients to ensure accurate and easily accessible records via
+a web interface.<br />
+• Collaborated to improve workflow, reducing the departmental backlog of
+uncompleted geospatial work.</p>
+</div>
+<strong>Position:</strong> Intern | Geological Survey of Alabama
+Tuscaloosa, Alabama<br />
+<strong>Duration:</strong> August – December 2016
+<div style="margin-left: 20px;">
+<p>• Created detailed maps in ArcGIS of gold mine locations and gold
+containing geologic units in Alabama.<br />
+• Compiled mining operation data from United States Geological Survey
+(USGS) minerals records.<br />
+• Organized historical data on geology, mines, and production.</p>
+</div>
+</div>
+<div id="environmental-and-scientific-fieldwork-and-research"
+class="section level5">
+<h5>Environmental and Scientific Fieldwork and Research</h5>
+<strong>Position:</strong> Geologist | Geohazards, Inc. Gainesville,
+Florida<br />
+<strong>Duration:</strong> May 2017 – July 2018
+<div style="margin-left: 20px;">
+<p>• Supervised sinkhole remediation projects including borehole logging
+and compaction grouting.<br />
+• Conducted geophysical field work, soil sample analysis, and generated
+reports.</p>
+</div>
+<strong>Position:</strong> Undergraduate Researcher | Univ. of Alabama
+Tephra Laboratory Tuscaloosa, Alabama<br />
+<strong>Duration:</strong> January – May 2017
+<div style="margin-left: 20px;">
+<p>• Operated a Scanning Electron Microscope to perform grain shape
+analysis of pseudo-ash samples.<br />
+• Contributed to a National Science Foundation (NSF) funded
+project.<br />
+• “Characterizing the Physical/Chemical Evidence of Volcanic
+Lightning.</p>
+</div>
+</div>
+<div id="stakeholder-engagement-and-project-coordination"
+class="section level5">
+<h5>Stakeholder Engagement and Project Coordination</h5>
+<strong>Position:</strong> Engineer 1 | DISH Network Littleton,
+Colorado<br />
+<strong>Duration:</strong> January 2021-October 2021<br />
+
+<div style="margin-left: 20px;">
+<p>• Acted as Design Lead for the Central Region of the US and supported
+other quadrants as needed.<br />
+• Collaborated with team members to achieve market and national goals
+within DISH territories.<br />
+• Coordinated with market teams and vendors to build a standalone
+greenfield 5G network.<br />
+• Developed national scale plans for hauling cellular data to local and
+national data centers.</p>
+</div>
+<strong>Position:</strong> Fiber Data Analyst | DISH Network Littleton,
+Colorado<br />
+<strong>Duration:</strong> September 2020-January 2021<br />
+
+<div style="margin-left: 20px;">
+<p>• Supported Design and Sourcing teams with geospatial data, scenario
+analysis, and risk analysis.<br />
+• Created initial market designs for presentation to C-Level
+management.<br />
+• Developed streamlined mapping processes and increased market design
+efficiency.<br />
+• Set standards for mapping and trained others to these standards.</p>
+</div>
+</div>
+<div id="education" class="section level5">
+<h5>Education</h5>
+<div id="colorado-state-university-december-2024"
+class="section level6">
+<h6>Colorado State University December 2024</h6>
+<p>Professional Science Masters, Ecosystem Science and
+Sustainability</p>
+</div>
+<div id="university-of-alabama-may-2017" class="section level6">
+<h6>University of Alabama May 2017</h6>
+<p>Bachelor of Science, Geology</p>
+</div>
+</div>
+<div id="water-sustainability-and-data-specific-coursework"
+class="section level5">
+<h5>Water Sustainability and Data-Specific Coursework</h5>
+<div id="environmental-data-science-applications-water-resources"
+class="section level6">
+<h6>Environmental Data Science Applications: Water Resources</h6>
+<div style="margin-left: 20px;">
+<p>• Used R to perform terrain, water quality, and flow analyses.<br />
+• Analyzed water resources via innovations in deep learning prediction
+and modelling.<br />
+• Employed GitHub as a central repository for projects and
+coursework.</p>
+</div>
+</div>
+<div id="introduction-to-environmental-data-science"
+class="section level6">
+<h6>Introduction to Environmental Data Science</h6>
+<div style="margin-left: 20px;">
+<p>• Performed data analysis in R with GitHub as a central repository
+for coursework.<br />
+• Performed geospatial analysis, debugging exercises, built functions,
+and performed nested modelling.</p>
+</div>
+</div>
+<div id="water-resource-development" class="section level6">
+<h6>Water Resource Development</h6>
+<div style="margin-left: 20px;">
+<p>• Analyzed social, economic, historical, and environmental factors
+influencing water policy.<br />
+• Examined Colorado and Western U.S. as case studies, explored national
+and global perspectives.<br />
+• Explored the physical principles underlying water management.</p>
+</div>
+</div>
+<div id="land-use-and-water-quality" class="section level6">
+<h6>Land Use and Water Quality</h6>
+<div style="margin-left: 20px;">
+<p>• Studied key physical, chemical, and biological water quality
+parameters.<br />
+• Analyzed the impact of land management practices on water
+quality.<br />
+• Gained familiarity with global and national water quality legislation
+and standards.</p>
+</div>
+</div>
+<div id="watershed-measurements" class="section level6">
+<h6>Watershed Measurements</h6>
+<div style="margin-left: 20px;">
+<p>• Utilized instrument and field techniques for project design and
+data analysis in watershed science.</p>
+</div>
+</div>
+<div id="land-use-hydrology" class="section level6">
+<h6>Land Use Hydrology</h6>
+<div style="margin-left: 20px;">
+<p>• Learned fundamental concepts in hydrology and effects of land use
+on hydrologic processes.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

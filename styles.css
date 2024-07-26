@@ -1,0 +1,31 @@
+body {
+  background-image: url('img/RunningWater.jpeg'); /* Add your image path here */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure that the main container is above the background image */
+.main-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  opacity: 0.9; /* Slight opacity to show the background image slightly */
+  z-index: -1;
+}

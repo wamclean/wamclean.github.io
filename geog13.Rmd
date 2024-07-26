@@ -1,0 +1,18 @@
+---
+title: "Projects"
+output: 
+  html_document:
+    css: styles.css
+---
+I am currently attending Colorado State University to acquire a Professional Science Masters in Ecosystem Science and Sustainability, specializing in Water Resources. I have previously worked in GIS and Telecom Network Planning but my passion has always been for natural resources and the stewardship of our environment, prompting my enrollment at CSU and subsequent projects.
+
+In the summer of 2024 I joined Lynker as an Intern and contributed to a TNC project modelling the Jalama Creek Watershed within the Jack and Laura Dangermond Preserve at Point Conception in California. 
+
+## [Lynker]()
+
+- In this assignment we built a static users site with Github Pages 
+- Includes a github repo for access to all the code.
+- Look at how high quality my work is!
+- I need to put my resume stuff from Lynker here once I have it
+- Keeping the standard provided text until I get further into this project I guess
+- Hi

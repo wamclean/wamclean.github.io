@@ -1,0 +1,66 @@
+---
+title: " "
+output: 
+  html_document:
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+# Load the icons package
+library(icons)
+```
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0;
+  }
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  .intro-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .intro-container img {
+    margin-right: 20px;
+    max-width: 400px;
+    height: auto;
+    border-radius: 50%;
+  }
+  .intro-text {
+    max-width: 400px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #111;
+    overflow-wrap: normal;
+    white-space: normal;
+  }
+</style>
+<center style = "margin-top: 0.5in;">
+<h1>Billy McLean</h1>
+</Center>
+<div class="image-container">
+</div>
+<h3>About Me</h3>
+<div class="intro-container">
+  <img src="img/Github_Picture.jpg" alt="GitHub Picture">
+  <p class = "intro-text">
+    I am a current Professional Science Masters student at Colorado State University, studying Ecosystem Science and Sustainability with a focus on Water Resources. With a strong foundation of scientific principles and ongoing education in environmental data science, I approach issues in sustainability and ecosystem health from a data-driven perspective. Ecosystem restoration and stewardship are my passions, and I intend to be on the front lines in helping create a more sustainable world in the present and for future generations.
+  </p>
+</div>

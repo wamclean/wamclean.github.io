@@ -1,0 +1,29 @@
+name: "first-website"
+output_dir: "."
+navbar:
+  title: 'William "Billy" McLean'
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+      
+    - text: "GIS Work"
+      href: geog13.html
+      
+    - text: "CV"
+      href: McLeanResume.html
+      
+    - text: "Shiny App"
+      href: shinyApp.html
+      
+  right:
+    - icon: fa-linkedin
+      href: https://www.linkedin.com/in/wamclean/
+    - icon: fa-github
+      href: https://github.com/wamclean
+      
+
+      
+output:
+  html_document:
+    css: styles.css
