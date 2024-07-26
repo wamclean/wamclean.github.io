@@ -6,16 +6,16 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-      
-    - text: "GIS Work"
-      href: geog13.html
-      
+
     - text: "CV"
       href: McLeanResume.html
       
     - text: "Shiny App"
       href: shinyApp.html
       
+    - text: "GIS Work"
+      href: geog13.html
+            
   right:
     - icon: fa-linkedin
       href: https://www.linkedin.com/in/wamclean/
