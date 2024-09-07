@@ -13,7 +13,7 @@ navbar:
     - text: "Shiny App"
       href: shinyApp.html
       
-    - text: "GIS Work"
+    - text: "Lynker"
       href: geog13.html
             
   right:

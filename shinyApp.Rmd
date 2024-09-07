@@ -1,5 +1,5 @@
 ---
-title: "My Shiny App"
+title: ""
 html_document:
     css: styles.css
 ---

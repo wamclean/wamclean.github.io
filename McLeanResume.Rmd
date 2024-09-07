@@ -33,6 +33,16 @@ world in the present and for future generations. My core competencies include:
 </div>
 ##### Data management and Geospatial Experience
 
+**Position:** Water Resource Data Scientist Intern | Lynker Fort Collins, Colorado    
+**Duration:**	June 2024 – Present   
+<div style="margin-left: 20px;">
+  •	Generated and validated a historic water balance from 2 leading hydrologic models.    
+  •	Characterized the historic behavior of a coastal watershed, enabling comparison with the present.   
+  •	Designed data pipelines to allow analysis and comparison of observation and modeled data.   
+  •	Assisted in applying the Next Generation Water Resource Modeling Framework (NextGen)    
+  •	Contributed to creating a digital twin of the Dangermond Preserve.
+</div>
+
 **Position:** Graduate Teaching Assistant | Colorado State University Fort Collins, Colorado    
 **Duration:** January 2024-May 2024
 <div style="margin-left: 20px;">
