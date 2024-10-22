@@ -29,8 +29,8 @@ Below is a combined plot showing seasonal error for each sub-catchment in the Ja
 
 
 Comparing delta well water level and change in soil moisture data allows a visualization of the accuracy of current model recharge data to real world conditions. The plot below shows spotty positive correlation between the two, indicating room for improvement in model accuracy.
-
-<img src="img/CABCM_CorrPlot_07152024.png" alt="CorrPlot" style="border: 1px solid #000;">
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+<img src="img/CorrPlot.png" alt="CorrPlot" style="border: 1px solid #000;">
 
 
 Another visualization which shows that the model often predicts the timing of soil moisture recharge events, but is less accurate in terms of magnitude
