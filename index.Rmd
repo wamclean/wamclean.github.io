@@ -61,6 +61,6 @@ library(icons)
 <div class="intro-container">
   <img src="img/Github_Picture.jpg" alt="GitHub Picture">
   <p class = "intro-text">
-    I am a current Professional Science Masters student at Colorado State University, studying Ecosystem Science and Sustainability with a focus on Water Resources. With a strong foundation of scientific principles and ongoing education in environmental data science, I approach issues in sustainability and ecosystem health from a data-driven perspective. Ecosystem restoration and stewardship are my passions, and I intend to be on the front lines in helping create a more sustainable world in the present and for future generations.
+    I am a current Professional Science Masters student at Colorado State University, studying Ecosystem Science and Sustainability with a focus on Water Resources. With a strong foundation of scientific principles and ongoing education in environmental data science, I approach issues in sustainability and ecosystem health from a data-driven perspective. Hydrologic data analysis for ecosystem restoration and environmental stewardship is my passion, and I intend to be on the front lines in helping create a more sustainable world in the present and for future generations.
   </p>
 </div>
