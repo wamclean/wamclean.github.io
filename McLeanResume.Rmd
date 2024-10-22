@@ -8,145 +8,182 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 <center>
+
 ## William "Billy" McLean
-Fort Collins, Colorado · 813-528-2602 · wamclean3@gmail.com   
-https://www.linkedin.com/in/wamclean/
-</center>   
 
-<center>
-#### Sustainable Water Resources | GIS | Data Analysis   
+Fort Collins, Colorado · 813-528-2602 · [wamclean3\@gmail.com](mailto:wamclean3@gmail.com){.email}\
+<https://www.linkedin.com/in/wamclean/>
+
 </center>
 
-With a strong foundation of scientific principles and ongoing education in environmental data science,    
-I approach issues in sustainability and ecosystem health from a data driven perspective. Ecosystem restoration    
-and stewardship are my passions and I intend to be on the front lines in helping create a more sustainable    
-world in the present and for future generations. My core competencies include:  
+<center>
 
-<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
-  • Spatial analysis with GIS systems including ArcGIS and QGIS<br>
-  • Data wrangling and analysis using RStudio<br>
-  • Stakeholder communication and public speaking<br>
-  • Field work, Trimble GPS, SAP, record management, Microsoft Suite<br>
-  • Spanish (intermediate proficiency)
-</div>
-##### Data management and Geospatial Experience
+#### Sustainable Water Resources \| Geospatial Data Science \| Data Analysis
 
-**Position:** Water Resource Data Scientist Intern | Lynker Fort Collins, Colorado    
-**Duration:**	June 2024 – Present   
-<div style="margin-left: 20px;">
-  •	Generated and validated a historic water balance from 2 leading hydrologic models.    
-  •	Characterized the historic behavior of a coastal watershed, enabling comparison with the present.   
-  •	Designed data pipelines to allow analysis and comparison of observation and modeled data.   
-  •	Assisted in applying the Next Generation Water Resource Modeling Framework (NextGen)    
-  •	Contributed to creating a digital twin of the Dangermond Preserve.
-</div>
+</center>
 
-**Position:** Graduate Teaching Assistant | Colorado State University Fort Collins, Colorado    
-**Duration:** January 2024-May 2024
-<div style="margin-left: 20px;">
-  •	Instructed students on core geospatial concepts and methods for mapping and analysis.   
-  •	Conducted three weekly labs to demonstrate these practices using ArcGIS Suite and QGIS.   
-  •	Assisted students in troubleshooting and problem solving as to enhance their learning experience.   
-  •	Managed a schedule involving over 75 students and their unique support needs.
-</div>
+With a strong foundation of scientific principles and ongoing education in environmental data science,\
+I approach issues in sustainability and ecosystem health from a data driven perspective. Ecosystem restoration\
+and stewardship are my passions and I intend to be on the front lines in helping create a more sustainable\
+world in the present and for future generations. My core competencies include:
 
-**Position:** Geospatial Data Technician II | Xcel Energy Denver, Colorado  
-**Duration:** October 2021-September 2023
-<div style="margin-left: 20px;">
-  •	Enhanced data analysis and improved conflict resolution (from 27–51%) for service delivery    
-  •	Utilized Smallworld GIS System to maintain data and mapping of high-pressure gas regulator stations.    
-  •	Supported Xcel Energy’s Gas Distribution, Design, Construction, Engineering, and Operations groups.   
-  •	Maintained data integrity by cross referencing historical and field data with daily data-conflict reports   
-  •	Assisted team with gas and electric facility information within Xcel Energy’s Enterprise GIS.   
-</div>
-**Position:** Geospatial Technician I | Xcel Energy Denver, Colorado
-**Duration:** March 2019-September 2020
-<div style="margin-left: 20px;">
-  •	Maintained gas and land base customer service facility information within Enterprise GIS.   
-  •	Processed gas and facility maintenance construction work orders and redline map corrections.    
-  •	Supported clients to ensure accurate and easily accessible records via a web interface.   
-  •	Collaborated to improve workflow, reducing the departmental backlog of uncompleted geospatial work.   
-</div>
-**Position:** Intern | Geological Survey of Alabama Tuscaloosa, Alabama   
-**Duration:** August – December 2016
-<div style="margin-left: 20px;">
-  •	Created detailed maps in ArcGIS of gold mine locations and gold containing geologic units in Alabama.   
-  •	Compiled mining operation data from United States Geological Survey (USGS) minerals records.    
-  •	Organized historical data on geology, mines, and production.    
-</div>
-##### Environmental and Scientific Fieldwork and Research
-**Position:** Geologist | Geohazards, Inc. Gainesville, Florida   
-**Duration:** May 2017 – July 2018
-<div style="margin-left: 20px;">
-  •	Supervised sinkhole remediation projects including borehole logging and compaction grouting.    
-  •	Conducted geophysical field work, soil sample analysis, and generated reports.    
-</div>
+::: {style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px"}
+• Hydrologic data analysis using RStudio<br> • Spatial data analysis with GIS systems including ArcGIS and QGIS<br> • Data visualization<br> • Stakeholder communication and public speaking<br> • Shiny, SAP, record management, Microsoft Suite, field work
+:::
 
-**Position:** Undergraduate Researcher | Univ. of Alabama Tephra Laboratory Tuscaloosa, Alabama   
-**Duration:** January – May 2017 
-<div style="margin-left: 20px;">
-  •	Operated a Scanning Electron Microscope to perform grain shape analysis of pseudo-ash samples.    
-  •	Contributed to a National Science Foundation (NSF) funded project.    
-  •	“Characterizing the Physical/Chemical Evidence of Volcanic Lightning.   
-</div>
-##### Stakeholder Engagement and Project Coordination   
-
-**Position:** Engineer 1 | DISH Network Littleton, Colorado   
-**Duration:** January 2021-October 2021   
-<div style="margin-left: 20px;">
-  •	Acted as Design Lead for the Central Region of the US and supported other quadrants as needed.    
-  •	Collaborated with team members to achieve market and national goals within DISH territories.    
-  •	Coordinated with market teams and vendors to build a standalone greenfield 5G network.    
-  •	Developed national scale plans for hauling cellular data to local and national data centers.    
-</div>
-**Position:** Fiber Data Analyst | DISH Network Littleton, Colorado   
-**Duration:** September 2020-January 2021   
-<div style="margin-left: 20px;">
-  •	Supported Design and Sourcing teams with geospatial data, scenario analysis, and risk analysis.   
-  •	Created initial market designs for presentation to C-Level management.    
-  •	Developed streamlined mapping processes and increased market design efficiency.   
-  •	Set standards for mapping and trained others to these standards.    
-</div>
 ##### Education
 
-###### Colorado State University	December 2024
-Professional Science Masters, Ecosystem Science and Sustainability
+###### **Colorado State University December 2024**
 
-###### University of Alabama	May 2017
+Professional Science Masters, Ecosystem Science and Sustainability - Water Resources
+
+###### **University of Alabama May 2017**
+
 Bachelor of Science, Geology
+
+##### Data management and Geospatial Experience
+
+**Position:** Water Resource Data Scientist Intern \| Lynker Fort Collins, Colorado\
+**Duration:** June 2024 – Present\
+
+::: {style="margin-left: 20px;"}
+• Generated and validated a historic water balance from 2 leading hydrologic models.\
+• Characterized the historic behavior of a coastal watershed, enabling comparison with the present.\
+• Designed data pipelines to allow analysis and comparison of observation and modeled data.\
+• Assisted in implementing the Next Generation Water Resource Modeling Framework (NextGen)\
+• Contributed to creating a digital twin of the Dangermond Preserve.
+:::
+
+**Position:** Graduate Teaching Assistant \| Colorado State University Fort Collins, Colorado\
+**Duration:** January 2024-May 2024
+
+::: {style="margin-left: 20px;"}
+• Instructed students on core geospatial concepts and methods for mapping and analysis.\
+• Conducted three weekly labs to demonstrate these practices using ArcGIS Suite and QGIS.\
+• Assisted students in troubleshooting and problem solving as to enhance their learning experience.\
+• Managed a schedule involving over 75 students and their unique support needs.
+:::
+
+**Position:** Geospatial Data Technician II \| Xcel Energy Denver, Colorado\
+**Duration:** October 2021-September 2023
+
+::: {style="margin-left: 20px;"}
+• Enhanced data analysis and improved conflict resolution (from 27–51%) for service delivery\
+• Utilized Smallworld GIS System to maintain data and mapping of high-pressure gas regulator stations.\
+• Supported Xcel Energy’s Gas Distribution, Design, Construction, Engineering, and Operations groups.\
+• Maintained data integrity by cross referencing historical and field data with daily data-conflict reports\
+• Assisted team with gas and electric facility information within Xcel Energy’s Enterprise GIS.
+:::
+
+**Position:** Geospatial Technician I \| Xcel Energy Denver, Colorado **Duration:** March 2019-September 2020
+
+::: {style="margin-left: 20px;"}
+• Maintained gas and land base customer service facility information within Enterprise GIS.\
+• Processed gas and facility maintenance construction work orders and redline map corrections.\
+• Supported clients to ensure accurate and easily accessible records via a web interface.\
+• Collaborated to improve workflow, reducing the departmental backlog of uncompleted geospatial work.
+:::
+
+**Position:** Intern \| Geological Survey of Alabama Tuscaloosa, Alabama\
+**Duration:** August – December 2016
+
+::: {style="margin-left: 20px;"}
+• Created detailed maps in ArcGIS of gold mine locations and gold containing geologic units in Alabama.\
+• Compiled mining operation data from United States Geological Survey (USGS) minerals records.\
+• Organized historical data on geology, mines, and production.
+:::
+
+##### Environmental and Scientific Fieldwork and Research
+
+**Position:** Geologist \| Geohazards, Inc. Gainesville, Florida\
+**Duration:** May 2017 – July 2018
+
+::: {style="margin-left: 20px;"}
+• Supervised sinkhole remediation projects including borehole logging and compaction grouting.\
+• Conducted geophysical field work, soil sample analysis, and generated reports.
+:::
+
+**Position:** Undergraduate Researcher \| Univ. of Alabama Tephra Laboratory Tuscaloosa, Alabama\
+**Duration:** January – May 2017
+
+::: {style="margin-left: 20px;"}
+• Operated a Scanning Electron Microscope to perform grain shape analysis of pseudo-ash samples.\
+• Contributed to a National Science Foundation (NSF) funded project.\
+• “Characterizing the Physical/Chemical Evidence of Volcanic Lightning.
+:::
+
+##### Stakeholder Engagement and Project Coordination
+
+**Position:** Engineer 1 \| DISH Network Littleton, Colorado\
+**Duration:** January 2021-October 2021\
+
+::: {style="margin-left: 20px;"}
+• Acted as Design Lead for the Central Region of the US and supported other quadrants as needed.\
+• Collaborated with team members to achieve market and national goals within DISH territories.\
+• Coordinated with market teams and vendors to build a standalone greenfield 5G network.\
+• Developed national scale plans for hauling cellular data to local and national data centers.
+:::
+
+**Position:** Fiber Data Analyst \| DISH Network Littleton, Colorado\
+**Duration:** September 2020-January 2021\
+
+::: {style="margin-left: 20px;"}
+• Supported Design and Sourcing teams with geospatial data, scenario analysis, and risk analysis.\
+• Created initial market designs for presentation to C-Level management.\
+• Developed streamlined mapping processes and increased market design efficiency.\
+• Set standards for mapping and trained others to these standards.
+:::
 
 ##### Water Sustainability and Data-Specific Coursework
 
-###### Environmental Data Science Applications: Water Resources    
-<div style="margin-left: 20px;">
-  •	Used R to perform terrain, water quality, and flow analyses.    
-  •	Analyzed water resources via innovations in deep learning prediction and modelling.   
-  •	Employed GitHub as a central repository for projects and coursework.    
-</div>
-###### Introduction to Environmental Data Science    
-<div style="margin-left: 20px;">
-  •	Performed data analysis in R with GitHub as a central repository for coursework.    
-  •	Performed geospatial analysis, debugging exercises, built functions, and performed nested modelling.    
-</div>
-###### Water Resource Development    
-<div style="margin-left: 20px;">
-  •	Analyzed social, economic, historical, and environmental factors influencing water policy.      
-  •	Examined Colorado and Western U.S. as case studies, explored national and global perspectives.    
-  •	Explored the physical principles underlying water management.   
-</div>
-###### Land Use and Water Quality    
-<div style="margin-left: 20px;">
-  •	Studied key physical, chemical, and biological water quality parameters.    
-  •	Analyzed the impact of land management practices on water quality.    
-  •	Gained familiarity with global and national water quality legislation and standards.    
-</div>
-###### Watershed Measurements   
-<div style="margin-left: 20px;">
-  •	Utilized instrument and field techniques for project design and data analysis in watershed science.   
-</div>
-###### Land Use Hydrology    
-<div style="margin-left: 20px;">
-  •	Learned fundamental concepts in hydrology and effects of land use on hydrologic processes.    
-</div>
+###### Environmental Data Science Applications: Water Resources
+
+::: {style="margin-left: 20px;"}
+• Used R to perform terrain, water quality, and flow analyses.\
+• Analyzed water resources via innovations in deep learning prediction and modelling.\
+• Employed GitHub as a central repository for projects and coursework. • Developed a Shiny App for quick visualization of precipitation data from SNOTEL Sites
+:::
+
+###### Introduction to Environmental Data Science
+
+::: {style="margin-left: 20px;"}
+• Performed data analysis in R with GitHub as a central repository for coursework.\
+• Performed geospatial analysis, debugging exercises, built functions, and performed nested modelling.
+:::
+
+###### Water Resource Development
+
+::: {style="margin-left: 20px;"}
+• Analyzed social, economic, historical, and environmental factors influencing water policy.\
+• Examined Colorado and Western U.S. as case studies, explored national and global perspectives.\
+• Explored the physical principles underlying water management.
+:::
+
+###### Land Use and Water Quality
+
+::: {style="margin-left: 20px;"}
+• Studied key physical, chemical, and biological water quality parameters.\
+• Analyzed the impact of land management practices on water quality.\
+• Gained familiarity with global and national water quality legislation and standards.
+:::
+
+###### Watershed Measurements
+
+::: {style="margin-left: 20px;"}
+• Utilized instrument and field techniques for project design and data analysis in watershed science.
+:::
+
+###### Land Use Hydrology
+
+::: {style="margin-left: 20px;"}
+• Learned fundamental concepts in hydrology and effects of land use on hydrologic processes.
+:::
+
+###### Limnology
+
+::: {style="margin-left: 20px;"}
+• Studied inland waters and the forces that influence them from an ecological perspective.\
+• Evaluated how human activities are influencing the future of freshwater on our planet.\
+• Utilized limnological tools and processes to study a nearby reservoir.
+:::
