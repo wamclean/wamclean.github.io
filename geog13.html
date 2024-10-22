@@ -13,7 +13,7 @@
 
 <title>Summer 2024 Internship with Lynker</title>
 
-<script src="site_libs/header-attrs-2.25/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.28/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -289,16 +289,19 @@ $(document).ready(function () {
 </div>
 
 
-<p>The Nature Conservancy is a leader in watershed modeling for
-sustainable growth and planning, they have partnered with Lynker to
-develop a digital twin of the Jack and Laura Dangermond Preserve, at
-Point Conception in California, and pioneer the adoption of the Next
-Generation Water Resources Modeling Framework (NextGen).</p>
+<p>The Nature Conservancy has partnered with Lynker to develop a digital
+twin of the Jack and Laura Dangermond Preserve, at Point Conception in
+California, and pioneer the adoption of the Next Generation Water
+Resources Modeling Framework (NextGen).</p>
 <p>In the summer of 2024 I joined
 <a href="https://lynker.com/" target="_blank">Lynker</a> as an Intern
 and contributed to this project by creating adaptable pipelines for
 sensor data, historic water balances based on current leading models,
 and by being among the first to work with the NextGen Model.</p>
+<p>I developed an R Package,
+<a href="https://lynker-spatial.github.io/WaterBalanceSummary/index.html" target="_blank">WaterBalanceSummary</a>
+that can be used to streamline this analysis. Sample datasets to allow
+reproduction of work are pending.</p>
 <p>There is a network of gauges throughout the watershed which provide
 historic data from 2010 to present. Leveraging this real world data
 against model projections allows us to train a NextGen Model to predict
@@ -310,14 +313,21 @@ Basin Characterization Model (CABCM)</a> and
 <a href="https://www.climatologylab.org/terraclimate.html" target="_blank">Terra
 Climate (TerraClim)</a> allowed me to develop a water balance for the
 watershed and to visualize the inputs and outputs to the system.</p>
-<div id="water-balances" class="section level2">
-<h2><a href="">Water Balances</a></h2>
+<div id="water-balances" class="section level3">
+<h3>Water Balances</h3>
 <!-- CABCM Water Balance -->
 <div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
-<p><img src="img/CABCM_Balance.png" alt="GitHub Picture">
+<p><img src="img/CABCM_Balance.png" alt="CABCM Balance">
 <!-- Terra Water Balance --></p>
-<p><img src="img/Terra_Balance.png" alt="GitHub Picture"><br />
-<!-- CABCM Corr Plot --></p>
+<!-- <img src="img/Terra_Balance.png" alt="GitHub Picture"> -->
+<!-- CABCM Corr Plot -->
+<p>Using this data also allows a visualization of error, where inputs
+and outputs to the system do not perfectly align. Calculated as PPT -
+AET - RCH - RUN - DeltaSTR = ERR</p>
+<div id="seasonalerror" class="section level3">
+<h3>SeasonalError</h3>
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+<p><img src="img/WebsitePics/SeasonalError.png" alt="Seasonal Error"></p>
 <p>Comparing delta well water level and change in soil moisture data
 allows a visualization of the accuracy of current models recharge data
 to real world conditions. The plots below show a lack of positive
@@ -326,6 +336,9 @@ Creek Watershed.</p>
 <p><img src="img/CABCM_CorrPlot_07152024.png" alt="GitHub Picture">
 <!-- Terra Corr Plot --></p>
 <p><img src="img/Terra_CorrPlot_07222024.png" alt="GitHub Picture"></p>
+</div>
+</div>
+</div>
 </div>
 
 
