@@ -4,7 +4,7 @@ output:
   html_document:
     css: styles.css
 ---
-The Nature Conservancy has partnered with Lynker to develop a digital twin of the Jack and Laura Dangermond Preserve, at Point Conception in California, and pioneer the adoption of the Next Generation Water Resources Modeling Framework (NextGen).
+The Nature Conservancy (TNC) has partnered with Lynker to develop a digital twin of the Jack and Laura Dangermond Preserve, at Point Conception in California, and pioneer the adoption of the Next Generation Water Resources Modeling Framework (NextGen).
 
 In the summer of 2024 I joined <a href="https://lynker.com/" target="_blank">Lynker</a> as an Intern and contributed to this project by creating adaptable pipelines for sensor data, historic water balances based on current leading models, and by being among the first to work with the NextGen Model. 
 
