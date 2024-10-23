@@ -1,0 +1,40 @@
+---
+title: "Summer 2024 Internship with Lynker"
+output: 
+  html_document:
+    css: styles.css
+---
+The Nature Conservancy has partnered with Lynker to develop a digital twin of the Jack and Laura Dangermond Preserve, at Point Conception in California, and pioneer the adoption of the Next Generation Water Resources Modeling Framework (NextGen).
+
+In the summer of 2024 I joined <a href="https://lynker.com/" target="_blank">Lynker</a> as an Intern and contributed to this project by creating adaptable pipelines for sensor data, historic water balances based on current leading models, and by being among the first to work with the NextGen Model. 
+
+I developed an R Package, <a href="https://lynker-spatial.github.io/WaterBalanceSummary/index.html" target="_blank">WaterBalanceSummary</a> that can be used to streamline this analysis. Sample datasets to allow reproduction of work are pending.
+
+There is a network of gauges throughout the watershed which provide historic data from 2010 to present. Leveraging this real world data against model projections allows us to train a NextGen Model to predict future outcomes for the watershed with the end goal of developing a tool to be deployed by the State of California.
+
+Pulling data from the <a href="https://ca.water.usgs.gov/projects/reg_hydro/basin-characterization-model.html" target="_blank">California Basin Characterization Model (CABCM)</a> and <a href="https://www.climatologylab.org/terraclimate.html" target="_blank">Terra Climate (TerraClim)</a> allowed me to develop a water balance for the watershed and to visualize the inputs and outputs to the system.
+
+### Water Balance
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+<img src="img/CABCM_Balance.png" alt="CABCM Balance" style="border: 1px solid #000;">
+
+
+Using this data also allows a visualization of error, where inputs and outputs to the system do not perfectly align. Calculated as PPT - AET - RCH - RUN - DeltaSTR = ERR
+
+Below is a combined plot showing seasonal error for each sub-catchment in the Jalama Creek watershed, excluding coastal catchments as they are outside the scope of the study.
+
+### SeasonalError
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+<img src="img/SeasonalError.png" alt="Seasonal Error" style="border: 1px solid #000;">
+
+
+Comparing delta well water level and change in soil moisture data allows a visualization of the accuracy of current model recharge data to real world conditions. The plot below shows spotty positive correlation between the two, indicating room for improvement in model accuracy.
+<div style="margin-left: 20px; margin-top: 20px; margin-bottom: 20px">
+<img src="img/CorrPlot.png" alt="CorrPlot" style="border: 1px solid #000;">
+
+
+Another visualization which shows that the model often predicts the timing of soil moisture recharge events, but is less accurate in terms of magnitude
+<img src="img/Plot_WWLvsSTR.png" alt="WWLvs_STR" style="border: 1px solid #000;">
+
+
+

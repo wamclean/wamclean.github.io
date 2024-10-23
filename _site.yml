@@ -13,8 +13,8 @@ navbar:
     - text: "Shiny App"
       href: shinyApp.html
       
-    - text: "Lynker"
-      href: geog13.html
+    - text: "R-Package"
+      href: LynkerWork.html
             
   right:
     - icon: fa-linkedin
